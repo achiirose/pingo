@@ -417,20 +417,20 @@ This generates optimized frontend assets in the `dist/` directory.
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                   PINGO Application                      │
+│                   PINGO Application                     │
 ├──────────────────────┬──────────────────────────────────┤
-│                      │                                   │
+│                      │                                  │
 │   FRONTEND (React)   │      BACKEND (Rust/Tauri)        │
-│                      │                                   │
-│  • UI Components     │  • IPC Commands Handler           │
+│                      │                                  │
+│  • UI Components     │  • IPC Commands Handler          │
 │  • State Management  │  • Crypto/Encryption             │
-│  • WebRTC Client     │  • Database (SQLite)              │
-│  • Notifications     │  • File Transfer Protocol         │
-│  • File Handling     │  • Screen Capture                 │
-│                      │  • LAN Discovery                  │
-│                      │  • Signaling Server               │
-│                      │  • System Tray                    │
-│                      │  • Auto-start                     │
+│  • WebRTC Client     │  • Database (SQLite)             │
+│  • Notifications     │  • File Transfer Protocol        │
+│  • File Handling     │  • Screen Capture                │
+│                      │  • LAN Discovery                 │
+│                      │  • Signaling Server              │
+│                      │  • System Tray                   │
+│                      │  • Auto-start                    │
 └──────────────────────┴──────────────────────────────────┘
                             ↕
                     IPC Bridge (Tauri)
